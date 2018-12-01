@@ -38,4 +38,22 @@
     <color name="follow_button_pressed_color">#0087BC</color>
     <color name="follow_button_light_color">@color/white</color>
     <color name="follow_button_light_pressed_color">#f7f7f7</color>
+
+    <!-- ConnectEd custom -->
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="welcomeTop">#00dfff</color>
+    <color name="welcomeCenter">#00c8ff</color>
+    <color name="welcomeBottom">#0083ff</color>
+    <color name="welcomeBorderTop">#0041ff</color>
+    <color name="welcomeBorderBottom">#00e0ff</color>
+    <color name="welcomeBorderBTop">#00beff</color>
+    <color name="welcomeBorderBBottom">#00a8ff</color>
+    <color name="welcomeConnected">#003eff</color>
+
+    <color name="login">#ffffff</color>
+    <color name="button">#b379ff</color>
 </resources>

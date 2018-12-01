@@ -1,31 +1,38 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/welcome_background"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
     tools:context="com.rozdoum.socialcomponents.main.login.LoginActivity">
-
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:src="@drawable/login_bg_gradient"
-        android:scaleType="centerCrop" />
 
     <LinearLayout
         android:id="@+id/buttonsContainer"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="660dp"
         android:layout_gravity="center"
         android:layout_marginBottom="@dimen/login_screen_content_offset_center_top"
         android:gravity="center"
         android:orientation="vertical">
 
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="122dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/connected_logo" />
+
         <TextView
+            style="@style/TextAppearance.MainTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/login_screen_title_margin"
+            android:fontFamily="@font/aller_bold"
             android:text="@string/app_name"
-            style="@style/TextAppearance.MainTitle" />
+            android:textColor="@color/welcomeConnected"
+            android:textSize="34sp" />
 
         <RelativeLayout
             android:id="@+id/facebookSignInButton"
@@ -81,5 +88,5 @@
 
         </RelativeLayout>
     </LinearLayout>
-</FrameLayout>
+</android.support.constraint.ConstraintLayout>
 
